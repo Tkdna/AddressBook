@@ -1,12 +1,15 @@
 #pragma once
 #include <stdbool.h>
 
+
+//실제 데이터
 typedef struct USERDATA {
 	int age;
 	char name[32];
 	char phone[32];
 }USERDATA;
 
+//연결리스트
 typedef struct MYNODE {
 	bool bNew;
 	void* pDataCache;
